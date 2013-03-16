@@ -9,12 +9,17 @@ $website = $_POST['website'];
 $otherinfo = $_POST['otherinfo'];
 $ldapid = $_POST['ldapid'];
 $ldap_pass = $_POST['ldappswd'];
-$ldap_uid = $ldapid;
+$ldap_uid = $ldapid
+
+//Blocking spamming LDAP's
+if($ldap_uid=='ravindra.m'){
+    die("This LDAP id is blocked from adding any data. Good try though :P")
+}
 
 //LDAP validation
 $ds = ldap_connect("ldap.iitb.ac.in") or die("Unable to connect to LDAP server. Please try again later.");
 if($ldap_uid=='') {
-    die("You have not entered any LDAP ID. Please go back and fill it up.");
+	 die("You have not entered any LDAP ID. Please go back and fill it up.");
 }
 $sr = ldap_search($ds,"dc=iitb,dc=ac,dc=in","(uid=$ldap_uid)");
 $info = ldap_get_entries($ds, $sr);
