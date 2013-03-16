@@ -1,0 +1,12 @@
+{
+    "title": "Map IIT-B",
+    "center": {
+        "lat": "16.636192",
+        "lng": "8.437500"
+    },
+    "markers": [
+  {"name" : "Satwik Kottur",
+"lat" : "34.019357211047385","lng" : "-118.28586122448723","ldapid" : "praveendath92","website" : "University of Southern California","phone" : "8879006132","info" : "20th May-30th July"},
+{"name" : "Raaz Dwivedi",
+"lat" : "37.42346593390034","lng" : "-122.1689274018554","ldapid" : "praveendath92","website" : "Stanford, California","phone" : "9619509136","info" : "15th May - 12th July"},{"name" : "Siddharth Buddhiraju",
+"lat" : "48.99945","lng" : "12.0932","ldapid" : "praveendath92","website" : "University of Regensburg, Regensburg/Munich","phone" : "9987065342","info" : "5 May - 15 July"}]}
