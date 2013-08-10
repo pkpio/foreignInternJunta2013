@@ -9,13 +9,13 @@ $jsonData = json_decode($JSON_Data);
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<link href='favicon.png' rel='icon' type='image/x-icon'/>
+<link href='praveen.ico' rel='icon' type='image/x-icon'/>
 <title>Foreign intern junta - 2013</title>
 <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=AIzaSyBj1x1ru0nbKZwNDKq8eGxc1x_Au0Dy7ls" type="text/javascript"></script>
 <link href="styles.css" rel="stylesheet" type="text/css" />
 <style>
 html, body {
-  height: 100%;
+	height: 100%;
 }
 #map {
 	width: 70%;
@@ -29,7 +29,8 @@ html, body {
 <div id="infoPanel">
   <div id="header">
     <input id="blueButton" value="Add marker" type="submit" onclick="window.open(document.URL+'addMarker.php', '_self');" />
-    <!--<input id="redButton" value="Logout" type="button" />-->
+    <a href="https://github.com/praveendath92/foreignInternJunta2013" target="_blank"><input id="redButton" value="Source code" type="button" /></a>
+	
   </div>
     <hr style="width:28%;margin-top:15px;">
   <div id="markersInfo"> </div>

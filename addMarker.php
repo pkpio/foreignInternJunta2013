@@ -13,7 +13,7 @@ $jsonData = json_decode($JSON_Data);
 <script type="text/javascript">
 
 function updateMarkerPosition(latLng) {
-  document.getElementById("lat").value = latLng.lat();
+	document.getElementById("lat").value = latLng.lat();
 	document.getElementById("lng").value = latLng.lng();
 }
 
@@ -87,10 +87,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <input id="lng" name="lng" value="" type="hidden" />
     
     <input name="title" placeholder="Name" />
+	<p style="color:#ff0000">Don't forget to drag the green marker to proper location</p>
     <input name="phoneno" placeholder="Contact number(s)" />
     <input name="website" placeholder="Univ/Company & city" />
     <textarea name="otherinfo" placeholder="Any other Info" rows="2"></textarea>
-	<p>*Below fields are must to check authenticity of info being added. Password is only to validate and never saved. Check source code on git @ /praveendath92/foreigninternJunta2013/</p>
+	<p>*Below fields are must to check authenticity of info being added. Password is only to validate and never saved. Check source code on git @ /praveendath92/foreignInternJunta2013/</p>
     <input name="ldapid" placeholder="LDAP Id" />
     <input name="ldappswd" type="password" placeholder="LDAP password" />
     </div>

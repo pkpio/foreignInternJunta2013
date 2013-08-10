@@ -13,7 +13,7 @@ $ldap_uid = $ldapid;
 
 //Blocking spamming LDAP's
 if($ldap_uid=='ravindra.m'){
-    die("This LDAP id is blocked from adding any data. Good try though :P");
+	die("This LDAP id is blocked from adding any data. Good try though :P");
 }
 
 //LDAP validation
